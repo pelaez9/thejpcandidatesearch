@@ -1,0 +1,175 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Basic styling for the navigation bar */
+/* Basic styling for the navigation bar */
+.navbar {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.navbar ul li button {
+  background-color: #444;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.navbar ul li button:hover {
+  background-color: #555;
+}
+
+.main {
+  margin-top: 50px; /* Ensure main content isn't overlapped by the navbar */
+}
+
+.navbar ul li button:hover {
+  background-color: #555;
+}
+
+/* Main content adjustment to avoid overlap with the navbar */
+.content {
+  margin-left: 180px; /* Ensure content moves to the right of the navbar */
+  padding: 20px;
+}
+
+
+.main {
+  margin-top: 50px; /* Ensure main content isn't overlapped by the navbar */
+}
+
+.candidate-table {
+  width: 100%;
+  border-collapse: collapse; /* Ensure borders are clean */
+  margin-top: 20px;
+}
+
+/* Table header (top of the table) */
+.candidate-table th {
+  background-color: #333; /* Dark background for contrast */
+  color: white;           /* White text for visibility */
+  padding: 10px;
+  text-align: left;
+}
+
+/* Table rows */
+.candidate-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Ensure the avatar images don't stretch */
+.candidate-table td img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+/* Add hover effect on rows */
+.candidate-table tr:hover {
+  background-color: #f5f5f5; /* Light background on hover */
+}
+
+/* Style the button inside the table */
+.candidate-table td button {
+  background-color: #ff4d4d; /* Red background */
+  color: white;              /* White text */
+  padding: 5px 10px;         /* Padding for the button */
+  border: none;              /* Remove default borders */
+  border-radius: 4px;        /* Rounded corners */
+  cursor: pointer;           /* Pointer cursor on hover */
+}
+
+/* Hover effect for the button */
+.candidate-table td button:hover {
+  background-color: #ff1a1a; /* Darker red on hover */
+}
+
+/* Style for the green 'Save' button */
+.main-page .save-button {
+  background-color: #28a745; /* Green background */
+  color: white;              /* White text */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;        /* Space between buttons */
+}
+
+.main-page .save-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Style for the red 'Skip' button */
+.main-page .skip-button {
+  background-color: #dc3545; /* Red background */
+  color: white;              /* White text */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.main-page .skip-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
