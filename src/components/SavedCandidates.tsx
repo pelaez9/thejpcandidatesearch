@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Candidate } from '../interfaces'; // Assuming you have the Candidate interface
+import { Candidate } from '../interfaces/interfaces'; // Assuming you have the Candidate interface
 
 const SavedCandidates: React.FC = () => {
   const [savedCandidates, setSavedCandidates] = useState<Candidate[]>([]);
@@ -45,7 +45,7 @@ const SavedCandidates: React.FC = () => {
                 <td>{candidate.location || 'N/A'}</td>
                 <td>{candidate.email || 'N/A'}</td>
                 <td>{candidate.company || 'N/A'}</td>
-                <td>{candidate.bio || 'N/A'}</td>
+                {/* <td>{candidate.bio || 'N/A'}</td> */}
                 <td>
                   <button onClick={() => deleteCandidate(candidate.login)}>-</button>
                 </td>

@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { getGitHubCandidate } from '../api/API';
 import CandidateCard from './CandidateCard'; // Assuming this component exists
-import { Candidate } from '../interfaces'; // Assuming this interface exists
+import { Candidate } from '../interfaces/interfaces'; // Assuming this interface exists
 
 const CandidateSearch = () => {
   const [candidate, setCandidate] = useState<Candidate | null>(null);

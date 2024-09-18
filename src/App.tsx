@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import CandidateSearch from './components/CandidateSearch';
 import SavedCandidates from './components/SavedCandidates';
 import './App.css';

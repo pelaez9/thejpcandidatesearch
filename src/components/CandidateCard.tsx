@@ -1,5 +1,5 @@
 import React from 'react';
-import { Candidate } from '../interfaces'; // Import the interface
+import { Candidate } from '../interfaces/interfaces'; // Import the interface
 
 interface CandidateCardProps {
   candidate: Candidate;
