@@ -45,7 +45,7 @@ const SavedCandidates: React.FC = () => {
                 <td>{candidate.location || 'N/A'}</td>
                 <td>{candidate.email || 'N/A'}</td>
                 <td>{candidate.company || 'N/A'}</td>
-                {/* <td>{candidate.bio || 'N/A'}</td> */}
+                <td>{candidate.bio || 'N/A'}</td>
                 <td>
                   <button onClick={() => deleteCandidate(candidate.login)}>-</button>
                 </td>

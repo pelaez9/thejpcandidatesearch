@@ -1,6 +1,5 @@
 const GITHUB_API_URL = 'https://api.github.com/search/users';
 const token = import.meta.env.VITE_GITHUB_TOKEN; // Use your GitHub token from .env
-console.log(token);
 
 // Function to generate a random letter from A-Z
 const getRandomLetter = () => {
